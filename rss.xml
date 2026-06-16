@@ -1,0 +1,25 @@
+---
+layout: null
+---
+<?xml version="1.0" ?>
+<rss version="2.0">
+{% assign ordered_collections = site.collections | sort:"weight" %}
+{%- for collection in ordered_collections -%}
+  {%- if collection.label!='posts' -%}
+  <channel>
+    <title>{{- collection.label -}}</title>
+    <link>{{- site.url -}}{{- site.baseurl -}}/sitemap.html#{{- collection.label -}}</link>
+    <description>{{- collection.description -}}</description>
+    {%- for doc in collection.docs -%}
+      {%- assign debut_contenu = doc.content | markdownify | strip_newlines | strip_html | escape_once | strip | replace: "/s+/"," " | normalize_whitespace | truncate: 160 -%}
+    <item>
+     <pubDate>{{ doc.date }}</pubDate>
+     <title>{{ doc.title }}</title>
+     <link>{{ site.url }}{{ site.baseurl }}{{ doc.url }}</link>
+     <description>{{ doc.summary | default: debut_contenu }}</description>
+    </item>
+    {% endfor %}
+  </channel>
+  {% endif %}
+{% endfor %}
+</rss>

@@ -1,0 +1,12 @@
+<div class="row navbar_collections">
+    <!-- {{ page.collection }}-->
+    {% assign ordered_collections = site.collections | sort:"weight" %}
+    {% for col in ordered_collections %}
+    <!-- {{ col.label }}-->
+    {% if col.label!='posts' %}
+    <div class="col"><a
+            {% if page.collection==col.label %}class="mark"{% endif %}
+            href="{{ site.url }}{{ site.baseurl }}{{ col.docs[-1].url }}">{{ col.label }}</a></div>
+    {% endif %}
+    {% endfor %}
+</div>

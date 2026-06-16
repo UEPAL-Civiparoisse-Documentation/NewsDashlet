@@ -1,0 +1,11 @@
+<p>{{page.collection}}</p>
+<ul>
+    {% for col in site.collections %}
+      {% if col.label==page.collection %}
+         {% for doc in col.docs reversed %}
+            <li><a href="{{site.url}}{{site.baseurl}}{{doc.url}}" {% if doc.title==page.title %} class="mark" {% endif %}>{{doc.title}}</a>
+            </li>
+         {% endfor %}
+      {% endif %}
+    {% endfor %}
+</ul>

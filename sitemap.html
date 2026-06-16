@@ -1,0 +1,29 @@
+---
+layout: post
+---
+<h2>Plan du site</h2>
+<ul>
+{% for col in site.collections %}
+    {% if col.label!="posts" %}
+    <li><a nohref id="{{col.label}}">{{col.label}}</a></li>
+    <ul>
+        {% for doc in col.docs reversed %}
+        <li><a href="{{site.url}}{{site.baseurl}}{{doc.url}}">{{ doc.title }}</a></li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+{% endfor %}
+</ul>
+<script type="text/javascript">
+window.onload=function(ev){
+   if(window.location.hash)
+   {
+       var id=window.location.hash.substring(1);
+       var elem=document.getElementById(id);
+       if(elem)
+       {
+           elem.classList.add('mark');
+       }
+   }
+};
+</script>

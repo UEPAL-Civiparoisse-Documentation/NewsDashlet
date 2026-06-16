@@ -1,0 +1,29 @@
+---
+---
+<html>
+<head>
+    <title>Civiparoisse : Le Blog - Nouvelles et Astuces</title>
+    <meta charset="UTF-8"/>
+    <link rel="icon" href="{{ site.url }}{{ site.baseurl }}/assets/img/uepal-logo.svg"/>
+    <link type="text/css" rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/fonts/Luciole_webfonts/Luciole-Regular/Luciole-Regular.css"/>
+    <link type="text/css" rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/style.css"/>
+</head>
+<body class="container">
+ {% include header.html %}
+ <div class="row">
+ <div class="col-3">&nbsp;</div><div class="col-9">{% include navbar_collections.html %}</div>
+ </div>
+{% include spacer.html %}
+
+<div class="row content">
+    {{ content }}
+</div>
+
+{% include spacer.html %}
+
+ {% include footer.html %}
+
+
+</body>
+
+</html>

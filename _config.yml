@@ -22,8 +22,8 @@ title: "Civiparoisse : les nouvelles"
 email: contact@uepal.fr
 description: >- # this means to ignore newlines until "baseurl:"
   Site pour diffuser les nouvelles de Civiparoisse
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/NewsDashlet" # the subpath of your site, e.g. /blog
+url: "https://uepal-civiparoisse-documentation.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 show_downloads: false
 google_analytics:
 #twitter_username: 

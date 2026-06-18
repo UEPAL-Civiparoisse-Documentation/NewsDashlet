@@ -1,0 +1,29 @@
+<nav class="navbar">
+  <div class="container-fluid">
+   <a class="navbar-brand" href="#">Navigation</a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav">
+{% assign ordered_collections = site.collections |sort:"weight" %}
+   {% for col in ordered_collections %}
+      {% if col.label!='posts' %}
+              <li class="nav-item dropdown">
+                 <a class="nav-link {% if page.collection==col.label %} active {% endif %} dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   {{ col.label }}
+                 </a>
+                <ul class="dropdown-menu">
+                {% for doc in col.docs reversed %}
+                   <li class="nav-item {% if page.title==doc.title %} active {% endif %}">
+                          <a class="dropdown-item  {% if page.title==doc.title %} active {% endif %}" href="{{site.url}}{{site.baseurl}}{{doc.url}}">{{doc.title}}</a>
+                   </li>
+                {% endfor %}
+                </ul>
+             </li>
+      {% endif %}
+   {% endfor %}
+     </ul>
+  </div>
+ </div>
+</nav>

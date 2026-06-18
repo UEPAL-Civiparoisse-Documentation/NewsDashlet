@@ -1,7 +1,32 @@
 ---
 ---
-@import "variables";
+
+$primary: #6f42c1;
+$body-bg: #212529;
+$body-color: #f8f9fa;
+$mark-color: scale-color($primary,$lightness: 50%);
+$mark-bg: $body-bg;
+$headings-color: $primary;
+$font-family-base: Luciole;
+$font-weight-base: 500;
+$font-size-base: 1.5rem;
+$popover-bg: $body-bg;
+$popover-body-color: $body-color;
+$popover-header-bg: $body-bg;
+$popover-header-color: $mark-color;
+$popover-border-color: $mark-color;
+$dropdown-link-hover-bg: $body-bg;
+$dropdown-link-active-color: $primary;
+$dropdown-link-active-bg: $body-bg;
+$dropdown-link-hover-color: $mark-color;
+$navbar-light-active-color: $primary;
+$navbar-light-color: $body-color;
+$navbar-light-brand-color: $mark-color;
+$navbar-light-brand-hover-color: $mark-color;
+$navbar-light-hover-color: $mark-color;
+
 @import "bootstrap/scss/bootstrap";
+
 .header a {
   text-decoration: none;
 }

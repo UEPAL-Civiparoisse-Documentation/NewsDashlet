@@ -4,7 +4,7 @@
     {% for col in ordered_collections %}
     <!-- {{ col.label }}-->
     {% if col.label!='posts' %}
-    <div class="col"><a
+    <div class="d-none d-lg-block col-lg"><a
             {% if page.collection==col.label %}class="mark"{% endif %}
             href="{{ site.url }}{{ site.baseurl }}{{ col.docs[-1].url }}">{{ col.label }}</a></div>
     {% endif %}

@@ -10,8 +10,11 @@
 </head>
 <body class="container">
  {% include header.html %}
+<div class="row">
+  <div class="d-block d-lg-none"> {% include navbar_small.html %}</div>
+</div>
  <div class="row">
- <div class="col-3">&nbsp;</div><div class="col-9">{% include navbar_collections.html %}</div>
+ <div class="col-sm-12 col-lg-3">&nbsp;</div><div class="col-sm-12 col-lg-9">{% include navbar_collections.html %}</div>
  </div>
 {% include spacer.html %}
 
@@ -23,7 +26,8 @@
 
  {% include footer.html %}
 
-
+<script type="text/javascript" src="{{site.url}}{{site.baseurl}}/assets/js/popper.js"></script>
+<script type="text/javascript" src="{{site.url}}{{site.baseurl}}/assets/js/bootstrap.js"></script>
 </body>
 
 </html>

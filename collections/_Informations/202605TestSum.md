@@ -4,6 +4,8 @@ title: "Test summary"
 date: 2026-05-10 16:06 +0200
 #summary: "Découvrez les nouvelles fonctionnalités mises à disposition depuis Avril 2026 (version 1.54 de CiviParoisse)"
 ---
+Découvrez les nouvelles fonctionnalités mises à disposition depuis Avril 2026 (version 1.54 de CiviParoisse)
+
 # Nouvelles fonctions
 
 - Nouvelles listes

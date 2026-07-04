@@ -4,9 +4,6 @@ title: "Collecter les adresses Courriels manquantes"
 date: 2026-04-10 16:06 +0200
 summary: "Découvrez la nouvelle liste des Courriels manquants, qui vous permet de mieux communiquer avec vos paroissiens"
 ---
-
-# Zoom sur la nouvelle Liste des Courriels manquants
-
 Disposer de l'adresse mail de votre contact vous permet de communiquer plus facilement avec lui, et de lui faire parvenir aisément depuis CiviParoisse les informations sur vos activités.  
 Les dernières statistiques montre que 92% de la population française dispose d'une adresse courriel.  
 Cette nouvelle liste vous permet de compléter directement à l'écran les courriels manquants.

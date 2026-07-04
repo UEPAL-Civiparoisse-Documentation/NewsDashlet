@@ -4,8 +4,6 @@ title: "Une meilleure gestion des adresses et des listes de distribution"
 date: 2026-01-05 16:07 +0200
 summary: "Découvrez une grande évolution dans la gestion des adresses et des listes pour les distributeurs, et la façon de bien se l'approprier lors de la première utilisation"
 ---
-
-# Une meilleure gestion des adresses et des listes pour les distributeurs
 La version 1.52.0 de CiviParoisse apporte une grande évolution dans la gestion des adresses. Nous sommes maintenant branchés sur la Base Nationale des Adresses (BAN), pour vous permettre d'avoir des adresses toujours bien saisies.
 
 - La saisie des adresses est maintenant possible via un bouton **"Assistant de saisie de l'adresse"**. Des listes déroulantes vous permettent de choisir le département, la commune, la rue et le numéro, de façon normée.

@@ -2,7 +2,7 @@
 layout: post
 title: "Nouvelles fonctionnalités dans CiviParoisse (Avril 2026)"
 date: 2026-04-10 16:06 +0200
-summary: "Découvrez les nouvelles fonctionnalités mises à disposition depuis Avril 2026 (version 1.54 de CiviParoisse)"
+summary: "Découvrez les nouveautés mises à disposition depuis Avril 2026 (version 1.54 de CiviParoisse)"
 ---
 # Nouvelles fonctions
 

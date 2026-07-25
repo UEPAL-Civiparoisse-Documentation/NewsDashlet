@@ -7,14 +7,14 @@ summary: "Découvrez les nouveautés mises à disposition depuis Janvier 2026 (v
 # Nouvelles fonctions
 
 - Nouvelle liste
-    - Liste des utilisateurs de CiviParoisse. [En savoir plus](gestion_base_donnees.md#consulter-lensemble-des-utilisateurs-de-la-base-de-donnees)
-- Fonctionnalités de gestion normalisée des adresses. [Voir la documentation](adresses.md)
-- Liste de distribution par Quartier maintenant trié par Quartier puis par nom de rue. [En savoir plus](adresses.md#editer-la-liste-de-distribution-par-quartier)
+    - Liste des utilisateurs de CiviParoisse. [En savoir plus](https://uepal-civiparoisse-documentation.github.io/UTILISATION/mode_emploi/gestion_base_donnees.html#consulter-lensemble-des-utilisateurs-de-la-base-de-donnees)
+- Fonctionnalités de gestion normalisée des adresses. [Voir la documentation](https://uepal-civiparoisse-documentation.github.io/UTILISATION/mode_emploi/adresses.html)
+- Liste de distribution par Quartier maintenant trié par Quartier puis par nom de rue. [En savoir plus](https://uepal-civiparoisse-documentation.github.io/UTILISATION/mode_emploi/adresses.html#editer-la-liste-de-distribution-par-quartier)
 - Action permettant d'envoyer un mailing aux parents dans les recherches et les listes.
 - Possibilité d'utiliser des planches déjà entamées pour imprimer les étiquettes autocollantes.
 - Documentation en ligne enrichie
-    - Exercices pas à pas pour apprendre à utiliser CiviParoisse. [Voir les exercices](../../FORMATION/EXERCICES/index.md)
-    - Diaporama pour apprendre à utiliser les fonctions les plus courantes de CiviParoisse. [Voir le diaporama](../../FORMATION/DIAPORAMAS/index.md)
+    - Exercices pas à pas pour apprendre à utiliser CiviParoisse. [Voir les exercices](https://uepal-civiparoisse-documentation.github.io/FORMATION/EXERCICES/index.html)
+    - Diaporama pour apprendre à utiliser les fonctions les plus courantes de CiviParoisse. [Voir le diaporama](https://uepal-civiparoisse-documentation.github.io/FORMATION/DIAPORAMAS/index.html)
     - Enrichissement des pages d'aides en ligne
 - Corrections de bugs mineurs
 

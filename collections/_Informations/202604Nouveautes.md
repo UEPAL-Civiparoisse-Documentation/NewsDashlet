@@ -7,9 +7,9 @@ summary: "Découvrez les nouveautés mises à disposition depuis Avril 2026 (ver
 # Nouvelles fonctions
 
 - Nouvelles listes
-    - Individus n'ayant pas d'adresses mails. [En savoir plus](operations_a_mener_regulierement.html#liste-des-ameliorations)
-    - Entreprises ou organisations présentes dans la base de données. [En savoir plus](mode_emploi/listes.html#quelles-listes-sont-disponibles)
-    - Trombinoscopes pour les Groupes, les compétences Chants et les compétences Instruments. [Lien vers l'exercice de formation "Rajouter une photo"](../../FORMATION/EXERCICES/03_CreationIndividu.html?h=photo#010-rajouter-une-photo-a-un-individu)
+    - Individus n'ayant pas d'adresses mails. [En savoir plus](https://uepal-civiparoisse-documentation.github.io/UTILISATION/mode_emploi/operations_a_mener_regulierement.html#liste-des-ameliorations)
+    - Entreprises ou organisations présentes dans la base de données. [En savoir plus](https://uepal-civiparoisse-documentation.github.io/UTILISATION/mode_emploi/listes.html#quelles-listes-sont-disponibles)
+    - Trombinoscopes pour les Groupes, les compétences Chants et les compétences Instruments. [Lien vers l'exercice de formation "Rajouter une photo"](https://uepal-civiparoisse-documentation.github.io/FORMATION/EXERCICES/03_CreationIndividu.html#010-rajouter-une-photo-a-un-individu)
 - Possibilité de "fermer" des fiches Foyers ou Organisations sans les supprimer, et d'indiquer la date de fermeture
 - Mode d'emploi : ajout des nouvelles paroisses utilisatrices de CiviParoisse
 - Corrections de bugs mineurs

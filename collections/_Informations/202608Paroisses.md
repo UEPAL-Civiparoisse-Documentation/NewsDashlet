@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🆕 En août, une nouvelle paroisse rejoint CiviParoisse"
+title: "En août, une nouvelle paroisse rejoint CiviParoisse"
 date: 2026-08-10 07:06 +0200
 # summary: ""
 ---

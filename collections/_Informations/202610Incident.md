@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🆕 Retour sur l'incident technique des 23 et 24 octobre"
+title: "Retour sur l'incident technique des 23 et 24 octobre"
 date: 2026-10-24 07:06 +0200
 summary: "CiviParoisse a été temporairement indisponible. Retour sur cet incident."
 ---
